@@ -6,12 +6,12 @@ const Navbar = () => {
 
     const navLink = <>
     
-    <li  className="m-2 md:mr-5 text-lg hover:text-[#f04336] hover:underline"><NavLink to="/">Home</NavLink></li>
+    <li  className="m-2 md:mr-5 text-lg hover:text-[#c3902c] hover:underline"><NavLink to="/">Home</NavLink></li>
 
     </>
 
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar fixed">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
