@@ -5,7 +5,7 @@ const Skill = () => {
             
             <div>
                 {/* Html and Css */}
-                <div className="flex flex-col sm:flex-row justify-evenly items-center gap-3 mt-10">
+                <div className="flex flex-col sm:flex-row justify-evenly items-center gap-3 mt-10 ml-10 md:ml-0">
                     <div className="mb-4 sm:mb-0">
                         <span className="mr-4 font-bold text-2xl">HTML 5</span>
                         <progress className="progress progress-warning w-72 h-3" value={90} max="100"></progress>
@@ -19,7 +19,7 @@ const Skill = () => {
                 </div>
 
                 {/* React and nextJs */}
-                <div className="flex flex-col sm:flex-row justify-evenly items-center gap-3 mt-10">
+                <div className="flex flex-col sm:flex-row justify-evenly items-center gap-3 mt-10 ml-10 md:ml-0">
                     <div className="mb-4 sm:mb-0">
                         <span className="mr-4 font-bold text-2xl">React JS</span>
                         <progress className="progress progress-warning w-72 h-3" value={90} max="100"></progress>
@@ -33,7 +33,7 @@ const Skill = () => {
                 </div>
 
                 {/* MongoDB and Express JS */}
-                <div className="flex flex-col sm:flex-row justify-evenly items-center gap-3 mt-10">
+                <div className="flex flex-col sm:flex-row justify-evenly items-center gap-3 mt-10 ml-10 md:ml-0">
                     <div className="mb-4 sm:mb-0">
                         <span className="mr-4 font-bold text-2xl">MongoDB</span>
                         <progress className="progress progress-warning w-72 h-3" value={70} max="100"></progress>

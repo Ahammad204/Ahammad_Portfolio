@@ -8,11 +8,12 @@ const Navbar = () => {
     
     <li  className="m-2 md:mr-5 text-lg hover:text-[#c3902c] hover:underline"><NavLink to="/">Home</NavLink></li>
     <li  className="m-2 md:mr-5 text-lg hover:text-[#c3902c] hover:underline"><a href="#skill">Skill</a></li>
+    <li  className="m-2 md:mr-5 text-lg hover:text-[#c3902c] hover:underline"><a href="#project">Project</a></li>
 
     </>
 
     return (
-        <div className="navbar bg-base-100 shadow-xl">
+        <div className="navbar bg-base-100 md:shadow-xl ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
