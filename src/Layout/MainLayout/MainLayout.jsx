@@ -1,12 +1,14 @@
-import Banner from "../../Banner/Banner";
+import { Outlet } from "react-router-dom";
 import Navbar from "../../Navbar/Navbar";
+
 
 
 const MainLayout = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <Banner></Banner>
+            <Outlet></Outlet>
+           
         </div>
     );
 };
