@@ -2,9 +2,9 @@
 
 const Project = () => {
     return (
-      <div>
+      <div className="project" id="project">
         <h1 className="text-4xl font-bold text-center mt-20 mb-20"> Project </h1>
-          <div  className="mb-3 project grid grid-cols-1 md:grid-cols-3  gap-3 ml-4" id="project">
+          <div  className="mb-3 grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-3 ml-4" >
             {/* Project 1 */}
             <div className="card bg-base-100 ml-7 md:ml-0 shadow-xl">
                 <figure><img className="rounded-xl w-full h-60" src="https://i.ibb.co/mvkVqVq/Screenshot-2023-12-11-220015.png" alt="Shoes" /></figure>
