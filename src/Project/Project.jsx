@@ -4,9 +4,9 @@ const Project = () => {
     return (
       <div className="project" id="project">
         <h1 className="text-4xl font-bold text-center mt-20 mb-20"> Project </h1>
-          <div  className="mb-3 grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-3 ml-4" >
+          <div  className="mb-3 grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-3" >
             {/* Project 1 */}
-            <div className="card bg-base-100 ml-7 md:ml-0 shadow-xl">
+            <div className="card bg-base-100  md:ml-0 shadow-xl">
                 <figure><img className="rounded-xl w-full h-60" src="https://i.ibb.co/mvkVqVq/Screenshot-2023-12-11-220015.png" alt="Shoes" /></figure>
                 <div className="card-body">
                     
@@ -26,7 +26,7 @@ const Project = () => {
                 </div>
             </div>
             {/* Project 2 */}
-            <div className="card bg-base-100 ml-7 md:ml-0  shadow-xl">
+            <div className="card bg-base-100  md:ml-0  shadow-xl">
                 <figure><img className="rounded-xl w-full h-60" src="https://i.ibb.co/JvSVZDH/Screenshot-2023-12-11-215727.png" alt="Shoes" /></figure>
                 <div className="card-body">
                     
@@ -46,7 +46,7 @@ const Project = () => {
                 </div>
             </div>
             {/* Project 3 */}
-            <div className="card bg-base-100 ml-7 md:ml-0  shadow-xl">
+            <div className="card bg-base-100  md:ml-0  shadow-xl">
                 <figure><img className="rounded-xl w-full h-60" src="https://i.ibb.co/g4J1hy3/Screenshot-2023-12-11-215911.png" alt="Shoes" /></figure>
                 <div className="card-body">
                     
