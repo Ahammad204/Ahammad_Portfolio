@@ -1,5 +1,5 @@
 
-import myImage from "../assets/WhatsApp Image 2023-12-09 at 19.42.24_36671181.png";
+import myImage from "../assets/profile-pic-1.png";
 import myTxtFile from "./CV.txt";
 
 const Banner = () => {

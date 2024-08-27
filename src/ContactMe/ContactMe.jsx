@@ -11,7 +11,7 @@ const Contact = () => {
 
         emailjs
             .sendForm(
-                "service_9kq8p0i",
+                "service_6935khp",
                 "template_ngzxh1g",
                 form.current,
                 "oEfAnD_aSR4lLkODW"
@@ -44,13 +44,13 @@ const Contact = () => {
                     <label className="mt-4">Name</label>
                     <input
                         type="text"
-                        name="user_name"
+                        name="from_name"
                         className="w-full h-6 p-7 outline-none rounded-md border border-gray-300 focus:border-teal-500"
                     />
                     <label className="mt-4">Email</label>
                     <input
                         type="email"
-                        name="user_email"
+                        name="from_email"
                         className="w-full h-6 p-7 outline-none rounded-md border border-gray-300 focus:border-teal-500"
                     />
                     <label className="mt-4">Message</label>
@@ -73,4 +73,3 @@ const Contact = () => {
 
 
 export default Contact;
-
